@@ -1,0 +1,31 @@
+## Variable = container that stores value of datatypes . in  JS we do not have to declare datatype  of variable.
+--example
+-- let name = "shubham" // js knows it's a string
+-- const age = 18 // js knows it's a number of type int
+-- const gpa = 8.7 // js knows it's a float 
+
+** and so on it verifies each datatype dynamically 
+
+There are there variable js 
+
+-- let : value stored in it can be reassigned  
+         it has a block scope
+
+--const : value cannot be reassigned 
+         it has block scope
+
+--var(use in rare case,avoid ): old way of declaring variable 
+                                it has function scoped 
+
+scopes : Scope refers to the area in code where a variable is accessible (i.e., where you can use it).
+        You can think of scope like "visibility range" of a variable — whether it can be seen from inside, outside, or only within a certain block or function.
+
+Types of Scope in JavaScript:
+
+   Scope Type	                            Description
+   -------------------------------------------------------------------------------------------------------
+   |  Global Scope	  | Declared outside any block or function → Accessible everywhere
+   |  Function Scope	| Declared inside a function → Only accessible inside that function
+   |  Block Scope	    | Declared inside {} block (like if, for, while) → Only accessible inside that block
+   |  Lexical Scope	  | Inner functions have access to variables defined in their outer functions
+   -------------------------------------------------------------------------------------------------------
