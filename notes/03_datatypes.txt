@@ -1,0 +1,18 @@
+## datatype = type of data we entered in an variable
+
+--- there are two type of data 
+
+1. Premitive data type | 2. Non premitive type
+
+-------------------------------------------------------------------------------------------------------------------
+1.Primitive data types
+==> we can say that these are datatype that is almost same as we see in usual life
+---string => stores character or sequence if character in "" , '', ``(for template literal)
+---number => stores integer, decimal, infinity, nan
+---Boolean => stores either true or false 
+---undefined => stores nothing like let a; result undefined
+---null => stores null as value , but in js due to some bug which are preserved its type is object
+---symbol => used to store hidden value
+---BigInt => used to store integer value morethan max integer length likt 68749349879827871n
+
+--------------------------------------------------------------------------------------------------------------------
