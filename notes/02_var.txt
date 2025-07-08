@@ -29,3 +29,11 @@ Types of Scope in JavaScript:
    |  Block Scope	    | Declared inside {} block (like if, for, while) → Only accessible inside that block
    |  Lexical Scope	  | Inner functions have access to variables defined in their outer functions
    -------------------------------------------------------------------------------------------------------
+
+   let us see about statically  type languages
+   like java c++ C etc
+   in these language we have declare value statically i.e we spacify its datatype
+
+   int a = 5; integer is defined
+   string s = "shubham"
+   like wise we delcare the datatype of variable but in js or python we just name the variable 
