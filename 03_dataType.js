@@ -7,10 +7,10 @@ let placed; //we used let as const need value immediately it get declared
 const status = null;
 const sym = Symbol("user");
 
-console.log(typeof(username));
-console.log(typeof(id));
-console.log(typeof(cgpa));
-console.log(typeof(passed));
-console.log(typeof(placed));
-console.log(typeof(status));
-console.log(typeof(sym));
+console.log(typeof username);
+console.log(typeof id);
+console.log(typeof cgpa);
+console.log(typeof passed);
+console.log(typeof placed);
+console.log(typeof status);
+console.log(typeof sym);
