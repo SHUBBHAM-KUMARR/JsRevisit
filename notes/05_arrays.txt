@@ -1,1 +1,3 @@
-// arrays are an ordered 
+// arrays are an ordered  type of data 
+it has index for the each data it stores 
+like objects it can also store multiple data of mutiple types
