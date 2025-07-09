@@ -1,0 +1,1 @@
+objects are unodered datatype has a key and its value .objects can store mutiple data of multiple types
