@@ -1,18 +1,30 @@
-## datatype = type of data we entered in an variable
 
---- there are two type of data 
+### non primitive  datatype
 
-1. Premitive data type | 2. Non premitive type
+non primitive datatype are datatype  which can store multiple values of different datatypes can be primitive or non primitive .
 
--------------------------------------------------------------------------------------------------------------------
-1.Primitive data types
-==> we can say that these are datatype that is almost same as we see in usual life
----string => stores character or sequence if character in "" , '', ``(for template literal)
----number => stores integer, decimal, infinity, nan
----Boolean => stores either true or false 
----undefined => stores nothing like let a; result undefined
----null => stores null as value , but in js due to some bug which are preserved its type is object
----symbol => used to store hidden value
----BigInt => used to store integer value morethan max integer length likt 68749349879827871n
+they are of object or function mostly
 
---------------------------------------------------------------------------------------------------------------------
+types of non primitive datatypes :
+array object function map date set
+
+objects:
+it stores data in form of keys and value which are paired
+
+keys are string
+value can be of any datatype
+{}is used to define object
+you can change value of variable in future as it is mutable
+
+these are stored by refrence not by value that means an object which is
+
+const car ={brand:"tesla"};
+brand: tesla is not stored  in car object directly instead it get stored in a memory location 
+we can do following wit object
+--add a key and value                    object.key=value
+--delete a key and value                 delete object.key        
+--modify a key and value                 object.key = new value 
+
+we ca access a key using 
+.
+console.log(user.name)
