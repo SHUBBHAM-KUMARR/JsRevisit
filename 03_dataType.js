@@ -8,18 +8,21 @@ const status = null;
 const sym = Symbol("user");
 const bignm = 123445555559893n
 const house = {price:"1111111",paint:"red"}
+const heros=["iron man","spider man","hulk"]
 const fun = function(){
   console.log("hello wold!");
   
 }
-console.log(typeof username);
-console.log(typeof id);
-console.log(typeof cgpa);
-console.log(typeof passed);
-console.log(typeof placed);
-console.log(typeof status);
-console.log(typeof sym);
-console.log(typeof bignm);
-console.log(typeof house);
-console.log(typeof fun);
+console.log(typeof username);//string
+console.log(typeof id);//number
+console.log(typeof cgpa);//number
+console.log(typeof passed);//boolean
+console.log(typeof placed);//undefined
+console.log(typeof status);//object
+console.log(typeof sym);//Symbol
+console.log(typeof bignm);//bigint
+console.log(typeof house);//object
+console.log(typeof fun);//function
+console.log(typeof heros);//object array is a type of object in js
 
+      
