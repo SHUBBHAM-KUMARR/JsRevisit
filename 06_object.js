@@ -1,5 +1,3 @@
-
-
 // here  we will discuss the non primitive datatypes arrays objects functions
 
 // we make a house object with tenant and lord
@@ -24,22 +22,19 @@ console.log(house.rent); //tenant bragained the rent
 house.saleValue = "Rs 10000000";
 console.log(house); //key and value is added to the object
 
-
-
-
 const avg0 = {
-   name:"Tony stark",
-   alterEgo:"Ironman",
-   bio:"A nerd built some amazing tech that give him his big break!",
-   freinds:["Steve Rogers","Parker","Hogan"]
-}
+  name: "Tony stark",
+  alterEgo: "Ironman",
+  bio: "A nerd built some amazing tech that give him his big break!",
+  freinds: ["Steve Rogers", "Parker", "Hogan"],
+};
 
 const avg1 = {
-  name:"Peter Parker",
-  alterEgo:"Spider Man",
-  bio:"A college student bitten by spider.",
-  freinds:["Tony Stark","Hogan","MJ"]
-}
+  name: "Peter Parker",
+  alterEgo: "Spider Man",
+  bio: "A college student bitten by spider.",
+  freinds: ["Tony Stark", "Hogan", "MJ"],
+};
 
 // let get the value of arrays
 
@@ -48,9 +43,9 @@ console.log(avg1.freinds.push("shubham"));
 console.log(avg0.freinds);
 console.log(avg1.freinds);
 
-// lets pop my name as i just code whole day so they told me for being our firends shubham you need to jump the buildings and i am not that action man so i just let be their audience 
+// lets pop my name as i just code whole day so they told me for being our firends shubham you need to jump the buildings and i am not that action man so i just let be their audience
 
 console.log(avg0.freinds.pop());
 console.log(avg1.freinds.pop());
-console.log(avg0.freinds)
-console.log(avg1.freinds)
+console.log(avg0.freinds);
+console.log(avg1.freinds);
