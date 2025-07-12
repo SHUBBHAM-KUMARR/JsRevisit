@@ -1,0 +1,16 @@
+strings  are  variable that stores character or sequence of character in "",'',``
+string have several methods by which we can access its index of character,character on specific index etc..
+declaration of strings
+
+let name = "shubham"
+let surname = 'kumar'
+
+we can concatinate the strings using + operation
+
+const car = "Thar"
+const brand = "Mahindra"
+
+console.log(brand + car) but here we will find no space between the values 
+so eihter we can start value in brand "Mahindra" with some space " Mahindra"
+
+or during console we can add a "withsomespace"
