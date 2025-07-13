@@ -1,0 +1,6 @@
+Number in js a common datatype for all the integer,float bigint & other datatypes
+in js number have methods by which can  
+
+fix their decimal places
+convert into string using toString 
+and  then we can find count of digits 

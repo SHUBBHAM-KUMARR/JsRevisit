@@ -1,0 +1,28 @@
+| Property       | Value             | Description                        |
+| -------------- | ----------------- | ---------------------------------- |
+| `Math.PI`      | 3.141592653589793 | Ratio of circumference to diameter |
+| `Math.E`       | 2.718281828459045 | Euler’s number                     |
+| `Math.LN2`     | \~0.693           | Natural log of 2                   |
+| `Math.LN10`    | \~2.303           | Natural log of 10                  |
+| `Math.SQRT2`   | 1.414213562       | Square root of 2                   |
+| `Math.SQRT1_2` | 0.707106781       | Square root of 1/2                 |
+
+
+in maths we have different method husing which we can make differrent calculations
+
+| Method          | Description                     | Example           | Output |
+| --------------- | ------------------------------- | ----------------- | ------ |
+| `Math.abs(x)`   | Absolute value                  | `Math.abs(-9)`    | `9`    |
+| `Math.ceil(x)`  | Round **up** to nearest integer | `Math.ceil(4.2)`  | `5`    |
+| `Math.floor(x)` | Round **down**                  | `Math.floor(4.7)` | `4`    |
+| `Math.round(x)` | Round to nearest integer        | `Math.round(4.5)` | `5`    |
+| `Math.trunc(x)` | Remove decimal part (truncate)  | `Math.trunc(4.9)` | `4`    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+functions
+
+| Method           | Description       | Example          | Output |
+| ---------------- | ----------------- | ---------------- | ------ |
+| `Math.pow(x, y)` | `x` raised to `y` | `Math.pow(2, 3)` | `8`    |
+| `Math.sqrt(x)`   | Square root       | `Math.sqrt(16)`  | `4`    |
+| `Math.cbrt(x)`   | Cube root         | `Math.cbrt(27)`  | `3`    |

@@ -97,3 +97,46 @@ console.log(car[2].name, car[2].result);
 console.log(car[0].name, car[0].id);
 console.log(car[1].name, car[1].id);
 console.log(car[2].name, car[2].id);
+// ++++++++++++++++++++++++++++++++arrays more on+++++++++++++++++//
+const carMahindra = ["thar","scorpio","bolero","xuv700"]
+const carSuzuki = ["swift","jimny","baleno","dzire"]
+
+// let see pushin  carSuzuki in carMahindra
+carMahindra.push(carSuzuki)
+console.log(carMahindra);// ['thar','scorpio','bolero','xuv700',[ 'swift', 'jimny', 'baleno', 'dzire' ]]
+// if we want to access  the value 
+console.log(carMahindra[4][0]);//swift
+
+// if we want to push values of one array to anaother 
+
+//  we can use spread operator and concatenate
+
+//concatenate
+
+const carMahindraNew = ["thar","scorpio","bolero","xuv700"]
+const carSuzukiNew = ["swift","jimny","baleno","dzire"]
+
+const carNew = carMahindraNew.concat(carSuzukiNew)
+console.log(carNew);/**[
+  'thar',   'scorpio',
+  'bolero', 'xuv700',
+  'swift',  'jimny',
+  'baleno', 'dzire'
+]*/
+
+//spread operator
+
+const carNewer = [...carMahindraNew,...carSuzukiNew]
+console.log(carNewer);/**[
+  'thar',   'scorpio',
+  'bolero', 'xuv700',
+  'swift',  'jimny',
+  'baleno', 'dzire'
+] */
+
+  // we can make arrray from other datatype
+  const name = "shubham"
+  console.log(Array.isArray(name));//false 
+  console.log(Array.from(name));//['s','h','u','b','h','a','m']
+  
+  

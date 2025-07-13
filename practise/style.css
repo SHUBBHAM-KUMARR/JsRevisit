@@ -1,0 +1,67 @@
+ *{
+      box-sizing: border-box;
+      background: slategrey;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      display: flex;
+      justify-items: center;
+     justify-content: center;
+    }
+    
+
+  .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 300px;
+    height : 135px;
+    background: #000;
+     text-align: center;
+     border-radius: 5px;
+     position: absolute;
+         top: 50%;  
+   transform: translateY(-60%);
+  }
+  .showPrompt  {
+    width: 100%;
+    height: 80%;
+    background: #fff;
+    border: inherit;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #show{
+   overflow:scroll;
+   scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    /* text-align: center; */
+    font-size: 14px;
+    font-weight: 600;
+    text-align: justify;
+    margin: 5px;
+  }
+  #btn{
+    width: 100%;
+    height: 20%;
+    border:none;
+    background: #62a8bdff;
+  /* padding:1.25em; */
+ text-align: center ;
+   font-weight: 800;
+   border-radius: 0 0 5px 5px;
+  }
+  button:hover{
+    background: #00aeffff;
+  }
