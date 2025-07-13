@@ -49,3 +49,46 @@ console.log(avg0.freinds.pop());
 console.log(avg1.freinds.pop());
 console.log(avg0.freinds);
 console.log(avg1.freinds);
+//we can freeze an object
+const college = {
+  name:"TPS",
+  estd:1967,
+  university:"PPU"
+}
+college.name="Thakur Prasad Singh"
+console.log("college.name");//Thakur Prasad Singh
+
+
+// after freeze
+Object.freeze(college)
+college.name="Thakur Prasad Singh College"
+console.log(college.name); // Thakur Prasad Singh
+
+// concatenating object
+
+// 1. Using Spread Operator (...)
+
+const objNew = { name: "TPS", estd: 1967 };
+const objNewer = { university: "PPU", city: "Patna" };
+
+const combined = { ...objNew, ...objNewer };
+console.log(combined);
+
+//  2. Using Object.assign()
+
+const combinedNew = Object.assign({}, objNew, objNewer);
+// Works the same way as the spread operator.
+
+// The first argument ({}) is the target — a new object.
+
+
+// sometimes we have to call a value multiple time in that case we can use a  syntax
+const course = {
+  name:"js hindi",
+  price:999,
+  instructor:"Hitesh"
+}
+console.log(course.instructor);//Hitesh as regular 
+const {instructor} = course
+console.log(instructor);
+
