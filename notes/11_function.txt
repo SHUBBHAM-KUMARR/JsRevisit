@@ -1,0 +1,1 @@
+In JavaScript, a function is a reusable block of code designed to perform a particular task. Functions let you group related code together, execute it whenever you need, and often return a result.
