@@ -1,0 +1,43 @@
+An arrow function is a concise way to write anonymous functions in JavaScript, introduced in ES6 (2015). It uses the => syntax and inherits this from its lexical scope, unlike traditional functions.
+
+
+ General Syntax Forms:
+ 1. No parameters:
+
+
+const greet = () => console.log("Hello!");
+
+2. Single parameter (no parentheses needed):
+
+
+const square = x => x * x;
+3. Multiple parameters:
+
+
+const multiply = (a, b) => a * b;
+4. Multi-line body (requires {} and return):
+
+
+
+const divide = (a, b) => {
+  if (b === 0) return 'Error';
+  return a / b;
+};
+
+
+
+
+
+
+
+
+
+Important Notes:
+No own this — it captures this from the surrounding scope.
+
+Cannot be used as constructors (new won't work).
+
+No arguments object (use rest parameters instead).
+
+Cannot use super or new.target.
+

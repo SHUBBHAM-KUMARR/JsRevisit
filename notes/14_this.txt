@@ -1,0 +1,5 @@
+The this keyword refers to the context where a piece of code, such as a function's body, is supposed to run. Most typically, it is used in object methods, where this refers to the object that the method is attached to, thus allowing the same method to be reused on different objects.
+
+this is an object in node but a window in browser 
+
+in node if you put this in a function then you get these methods and identifiers
