@@ -25,8 +25,9 @@ Types of Scope in JavaScript:
    Scope Type	                            Description
    -------------------------------------------------------------------------------------------------------
    |  Global Scope	  | Declared outside any block or function → Accessible everywhere
-   |  Function Scope	| Declared inside a function → Only accessible inside that function
-   |  Block Scope	    | Declared inside {} block (like if, for, while) → Only accessible inside that block
+   |  Function Scope	  | Declared inside a function → Only accessible inside that function
+   |  Block Scope	  | Declared inside {} block (like if, for, while) →                         Only accessible inside that block
+   |                      |
    |  Lexical Scope	  | Inner functions have access to variables defined in their outer functions
    -------------------------------------------------------------------------------------------------------
 

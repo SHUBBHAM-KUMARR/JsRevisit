@@ -1,0 +1,30 @@
+## addition note ## 
+we should aware of what is the code going to do and where it will put values and what time it will take to do the job . It is more important than just knowing coding.
+
+
+
+
+
+hoistin isHoisting is JavaScript's behavior of moving variable and function declarations to the top of their scope during the compilation phase, before code execution.
+
+Hoisting is JavaScript's behavior of moving variable and function declarations to the top of their scope during the compilation phase, before code execution.
+
+Hoisting with var (Variables)
+
+console.log(x); // undefined
+var x = 5;
+
+ Why doesn't this throw an error?
+Because JS hoists the declaration (var x;) to the top:
+
+
+var x;
+console.log(x); // undefined
+x = 5;
+Only the declaration is hoisted, not the assignment.
+
+Hoisting with let and const
+
+console.log(y); //  ReferenceError
+let y = 10;
+Variables declared with let or const are hoisted too, but they are placed in a "temporal dead zone" (TDZ) until the line where they are defined.
