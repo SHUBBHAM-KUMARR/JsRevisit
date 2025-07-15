@@ -48,12 +48,3 @@ userInput("noOne@top","shubham009")
 // though we used break before but  let us see switch conditional statementin javascript
 
 // when we have multiple condition to be checked for same 
-
-// switch (key) {
-//   case value:
-    
-//     break;
-
-//   default:
-//     break;
-// }
