@@ -1,0 +1,164 @@
+chat gpt notes
+
+
+✅ What is a Loop?
+
+
+A loop allows you to execute a block of code multiple times. The loop continues until a specified condition becomes false.
+
+🔁 Types of Loops in JavaScript
+for loop
+
+while loop
+
+do...while loop
+
+for...in loop (used with objects)
+
+for...of loop (used with arrays or iterables)
+
+🔹 1. for Loop
+✅ Syntax:
+javascript
+Copy
+Edit
+for (initialization; condition; update) {
+  // code to run
+}
+✅ Example:
+javascript
+Copy
+Edit
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+// Output: 0 1 2 3 4
+🔹 2. while Loop
+✅ Syntax:
+javascript
+Copy
+Edit
+while (condition) {
+  // code to run
+}
+✅ Example:
+javascript
+Copy
+Edit
+let i = 0;
+while (i < 3) {
+  console.log(i);
+  i++;
+}
+// Output: 0 1 2
+🔹 3. do...while Loop
+This loop always runs at least once, even if the condition is false.
+
+✅ Syntax:
+javascript
+Copy
+Edit
+do {
+  // code to run
+} while (condition);
+✅ Example:
+javascript
+Copy
+Edit
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 3);
+// Output: 0 1 2
+🔹 4. for...in Loop (used for objects)
+✅ Syntax:
+javascript
+Copy
+Edit
+for (let key in object) {
+  console.log(key, object[key]);
+}
+✅ Example:
+javascript
+Copy
+Edit
+let student = { name: "John", age: 20 };
+for (let key in student) {
+  console.log(key, student[key]);
+}
+// Output: name John
+//         age 20
+🔹 5. for...of Loop (used for arrays, strings, iterables)
+✅ Syntax:
+javascript
+Copy
+Edit
+for (let value of iterable) {
+  console.log(value);
+}
+✅ Example:
+javascript
+Copy
+Edit
+let colors = ["red", "blue", "green"];
+for (let color of colors) {
+  console.log(color);
+}
+// Output: red
+//         blue
+//         green
+🔁 Loop Control Statements
+🔸 break
+Immediately exits the loop.
+
+javascript
+Copy
+Edit
+for (let i = 0; i < 10; i++) {
+  if (i === 3) break;
+  console.log(i);
+}
+// Output: 0 1 2
+🔸 continue
+Skips the current iteration and continues to the next.
+
+
+for (let i = 0; i < 5; i++) {
+  if (i === 2) continue;
+  console.log(i);
+}
+// Output: 0 1 3 4
+
+ When to Use Which Loop?
+Use Case	Recommended Loop
+Known number of iterations	for
+Unknown end condition	while
+Run at least once before testing	do...while
+Loop through object properties	for...in
+Loop through array/iterables	for...of
+
+ Common Mistakes to Avoid
+Infinite loop from a never-ending condition
+
+Not updating the loop variable
+
+Using = instead of == or === in conditions
+
+Practice Challenge
+Write a loop that prints all even numbers from 1 to 20.
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+
+
+
+
+
+
+
+
