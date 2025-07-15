@@ -1,0 +1,5 @@
+truthy value is a value that is defined true  in js 
+
+similarly falsy value is a value that is defined false in js
+
+except  false, 0, -0, 0n, "", null, undefined, NaN, and document.all all values are truthy values.

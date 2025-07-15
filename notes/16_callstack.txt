@@ -1,1 +1,55 @@
 callstack
+ Call Stack in Programming
+The call stack is used to keep track of:
+
+Function calls
+
+Their local variables
+
+The execution context (like where to return after a function finishes)
+
+  How It Works (LIFO System)
+When a function is called, its execution context (variables, parameters, return address) is pushed onto the top of the stack.
+
+When the function completes, its frame is popped off the top of the stack.
+
+This continues, always adding to or removing from the top — hence, Last In, First Out.
+
+ Example (JavaScript):
+
+function A() {
+  B();
+}
+
+function B() {
+  C();
+}
+
+function C() {
+  console.log("Inside C");
+}
+
+A();
+Call Stack Flow:
+A() is called → Push A onto the stack
+
+B() is called inside A() → Push B
+
+C() is called inside B() → Push C
+
+C() finishes → Pop C
+
+B() finishes → Pop B
+
+A() finishes → Pop A
+
+Stack is empty again
+ What's in a Stack Frame?
+Each stack frame stores:
+
+Function arguments
+
+Local variables
+
+The return address (where to go back after function finishes)
+
