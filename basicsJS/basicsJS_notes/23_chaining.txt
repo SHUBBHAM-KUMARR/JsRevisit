@@ -1,0 +1,2 @@
+
+n JavaScript, chaining refers to the technique of calling multiple methods on the same object in a single statement, one after another, using the dot (.) operator. It improves code readability and makes your code more concise.

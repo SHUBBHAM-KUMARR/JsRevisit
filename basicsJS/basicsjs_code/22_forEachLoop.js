@@ -1,3 +1,6 @@
+// recall => when we use {} we need to return our value and if we use () or just write our args we may not need to return value i.e value is returned itself 
+
+
 //for eachis a method 
 
 const day = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
@@ -72,3 +75,86 @@ const newNums = []
   
 })
 console.log(newNums);
+
+//filtering objects
+const books =[
+  {
+    "title": "echoes of tomorrow",
+    "genre": "fictional",
+    "publish": 2019,
+    "edition": "1st"
+  },
+  {
+    "title": "whispers in the pines",
+    "genre": "drama",
+    "publish": 2021,
+    "edition": "2nd"
+  },
+  {
+    "title": "the last ember",
+    "genre": "fantasy",
+    "publish": 2018,
+    "edition": "3rd"
+  },
+  {
+    "title": "beneath crimson skies",
+    "genre": "history",
+    "publish": 2020,
+    "edition": "1st"
+  },
+  {
+    "title": "fractured minds",
+    "genre": "thriller",
+    "publish": 2022,
+    "edition": "1st"
+  },
+  {
+    "title": "digital horizons",
+    "genre": "nonfiction",
+    "publish": 2017,
+    "edition": "4th"
+  },
+  {
+    "title": "garden of lost dreams",
+    "genre": "romance",
+    "publish": 2023,
+    "edition": "1st"
+  },
+  {
+    "title": "quantum shadows",
+    "genre": "science",
+    "publish": 2016,
+    "edition": "5th"
+  },
+  {
+    "title": "the art of stillness",
+    "genre": "philosophy",
+    "publish": 2015,
+    "edition": "2nd"
+  },
+  {
+    "title": "voices from the dust",
+    "genre": "mystery",
+    "publish": 2024,
+    "edition": "1st"
+  }
+]
+
+
+const userBook = books.filter((bk)=> bk.genre ==='mystery' )
+console.log(userBook);
+
+// -------------------------------------------------------------------------------------------------
+
+const numbers= [1,2,3,4,5,6,7,8,9,10] // we can use map() in similar wy to update a value
+// let u here add  10 to each vlaue
+
+const newNumbers = numbers.map((val)=> val+10)
+console.log(newNumbers);/**[
+  11, 12, 13, 14, 15,
+  16, 17, 18, 19, 20
+]*/ //we got our desired result 
+
+
+
+
