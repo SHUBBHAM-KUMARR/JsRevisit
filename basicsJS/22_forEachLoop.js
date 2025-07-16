@@ -58,3 +58,17 @@ const newNum = num.filter((value)=>{
   return value>3
 })
 console.log(newNum);//[4,5,6,7]
+
+// can we same with for each loop not actually as our foreach does not return anything
+
+// but we can make our code work using condition as we did earlier
+
+const newNums = []
+ num.forEach((value)=>{
+  if(value > 3){
+    newNums.push(value)
+  }
+ 
+  
+})
+console.log(newNums);
