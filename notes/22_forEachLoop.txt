@@ -1,0 +1,11 @@
+//
+he forEach() method of Array instances executes a provided function once for each array element.
+
+each callback function holds upto 3 arguments
+
+Notes:
+It does not return a new array (unlike .map()).
+
+Doesn’t break or return early – use a regular for loop if you need to stop mid-way.
+
+It's useful for running side effects (e.g., console.log, DOM manipulation).

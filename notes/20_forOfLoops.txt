@@ -1,0 +1,5 @@
+
+for of loops are used to implement loops in arrays ,map,strings ,,typedarray,set,nodelist and other dom objects
+
+it cannot iterate objects
+
