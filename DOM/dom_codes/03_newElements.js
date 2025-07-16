@@ -39,6 +39,11 @@ console.log(arr2);//here we cant set bg color using nth child property in css
 
 newDiv.setAttribute("class","children")
 
-console.log(parent.children);//Now we have attribute named class and and value children  
+console.log(parent.children);//Now we have attribute named class and and value children 
 
+// now letus check the nodes of parent
+
+
+
+console.log("NODES:", parent.childNodes);
 
