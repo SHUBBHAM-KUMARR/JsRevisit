@@ -6,5 +6,5 @@ their are two type of node list
 1.static => not  updatable
 2.live   => can be updated
 
-
+querySelector creates nodelist and for using method which are not present in this method be need to convert it in array
 
