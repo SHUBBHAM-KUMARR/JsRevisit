@@ -48,3 +48,13 @@ randomObjects.forEach((index)=>{console.log(index.name);// we get the namses alp
 })
 
 // here we learned that the index in foreach method named the each value index since value is an object and we know that object's value are called by  object.key  so here it is index.name  index key calls value name 
+
+
+// filter
+
+const num = [1,2,3,4,5,6,7]
+
+const newNum = num.filter((value)=>{
+  return value>3
+})
+console.log(newNum);//[4,5,6,7]

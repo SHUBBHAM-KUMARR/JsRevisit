@@ -9,3 +9,5 @@ It does not return a new array (unlike .map()).
 Doesn’t break or return early – use a regular for loop if you need to stop mid-way.
 
 It's useful for running side effects (e.g., console.log, DOM manipulation).
+
+// filter: it filters out the targetted apram
