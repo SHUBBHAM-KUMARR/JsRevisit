@@ -1,0 +1,10 @@
+NodeList objects are collections of nodes, usually returned by properties such as Node.childNodes and methods such as document.querySelectorAll().
+
+nodelist seem to be array but they are different though they are indexable and have length but it does not has all array methods
+
+their are two type of node list 
+1.static => not  updatable
+2.live   => can be updated
+
+
+
