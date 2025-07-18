@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventsJS</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #000;
+  }
+  #mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 480px;
+    height:480px;
+  }
+  #mainList{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e5e5e5;
+  }
+  .items{
+    list-style: none;
+  }
+  .boxes{
+    width: 100px;
+    height:100px;
+    background-color: #946d6d;
+    margin: 5px 0 5px 0;
+  }
+  h1{
+    color: aliceblue;
+  }
+</style>
+<body>
+  <h1>EventPractise</h1>
+  <div id="mainContainer">
+    <ul id="mainList">
+      <li class="items">
+        <div id="box0" class="boxes"></div>
+      </li>
+      <li class="items">
+        <div id="box1" class="boxes"></div>
+      </li>
+      <li class="items">
+        <div id="box2" class="boxes"></div>
+      </li>
+      <li class="items">
+        <div id="box3" class="boxes"></div>
+      </li>
+    </ul>
+  </div>
+  <script src="./01_event.js"></script>
+</body>
+</html>
