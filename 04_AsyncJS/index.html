@@ -13,15 +13,26 @@
       font-family: 'Courier New', Courier, monospace;
     }
     body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       width: 100vw;
       height: 100vh;
+      background: #000;
     }
+
+    #title{
+      color: #fff;
+      height: 20%;
+    }
+
     #mainContainer{
       width: 50%;
-      height: 50%;
+      height: 70%;
       background: rgba(255, 148, 246, 0.484);
       position: relative;
-      top:50%;
+      top:30%;
       margin: auto;
       transform: translateY(-50%);
       
@@ -31,8 +42,15 @@
   height: 78%;
   background-color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#screen{
+ width: 100%;
+ height: 70%;
+ background-color: #fff;
+ border-radius: 0px ;
 }
 
     #text{
@@ -44,7 +62,7 @@
       text-align: center;
       font-weight: 600;
       color: black;
-      font-size: 50px;
+      font-size: 2em;
     }
     #control{
       display: flex;
@@ -58,11 +76,26 @@
       border-radius: 5px;
       font-size: 2em;
     }
+
+    @media (max-width:468px) {
+      
+     #mainContainer{
+      width:288px;
+      height:360px;
+      
+     }
+    }
+
+    
   </style>
 </head>
-<body style="background-color: black;">
+<body >
+  <h1 id="title">Hex color generator</h1>
   <div id="mainContainer">
-     <div id="textContr"><p id="text"></p></div>
+     <div id="textContr">
+      <p id="text"></p>
+      <div id="screen"></div>
+    </div>
     <div id="control">
       <button id="start">Start</button>
       <button id="stop">stop</button>

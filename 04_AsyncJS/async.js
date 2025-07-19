@@ -19,13 +19,16 @@ const textAr = document.getElementById('text');
  let interval;
 btnStr.addEventListener('click', function() {
   // generate hex code every second
-   interval = setInterval(() => {
+   if(!interval){
+    interval = setInterval(() => {
     textAr.innerText = hexColorGenrator();
+    document.getElementById('screen').style.background = textAr.innerText
   }, 1000);
+   }
 });
 
 btnStp.addEventListener('click',()=>{
   clearInterval(interval)
-
+  interval= null;
 }
 )
