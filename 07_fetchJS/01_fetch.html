@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub User Fetch</title>
+</head>
+<body>
+  <h1>GitHub User Info</h1>
+  <button id="loadBtn">Load User</button>
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById('loadBtn').addEventListener('click', () => {
+      fetch('https://api.github.com/users/shubbham-kumarr')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('HTTP error! status: ' + response.status);
+          }
+          return response.json();
+        })
+        .then(user => {
+          document.getElementById('output').textContent = JSON.stringify(user, null, 2);
+        })
+        .catch(error => {
+          console.error('Error fetching user:', error);
+        });
+    });
+  </script>
+</body>
+</html>
